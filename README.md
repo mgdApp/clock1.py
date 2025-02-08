@@ -28,7 +28,7 @@ def clear_console():
 while True:
     clear_console()
     current_time = time.strftime("%H:%M:%S")
-    print("La hora acual es: ", current_time)
+    print("La hora acual es:", current_time)
     time.sleep(1)
 ```
 
@@ -40,5 +40,5 @@ while True:
     - `"%M"`: Minutos (0-59).
     - `"%S"`: Segundos (0-59).
 
-- `print("La hora actual es: ", current_time)`: Imprime la hora actual.
+- `print("La hora actual es:", current_time)`: Imprime la hora actual.
 - `time.sleep(1)`: Hace que el programa se detenga (o duerma) por un segundo. En este caso, el ciclo se ejecutará cada segundo, permitiendo que el reloj se actualice cada segundo.

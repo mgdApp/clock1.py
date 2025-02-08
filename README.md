@@ -4,8 +4,9 @@ Programa en Python que muestra la hora actual en la consola.
 # Syntax
 
 1. Importar módulos:
-        - `import time`: Importa el módulo `time`, que proporciona funciones relacionadas con el tiempo. En este programa se utiliza para obtener la hora actual y pausar la ejecución durante un intervalo determinado.
-        - `import os`: Importa el módulo `os`, que permite interactuar con el sistema operativo. Se utiliza para ejecutar comandos del sistema (en este caso, para limpiar la pantalla).
+
+    - `import time`: Importa el módulo `time`, que proporciona funciones relacionadas con el tiempo. En este programa se utiliza para obtener la hora actual y pausar la ejecución durante un intervalo determinado.
+    - `import os`: Importa el módulo `os`, que permite interactuar con el sistema operativo. Se utiliza para ejecutar comandos del sistema (en este caso, para limpiar la pantalla).
 
 2. Definir una función para limpiar la consola:
 

@@ -28,7 +28,7 @@ def clear_console():
 while True:
     clear_console()
     current_time = time.strftime("%H:%M:%S")
-    print("Reloj Digital (Consola):", current_time)
+    print("La hora acual es: ", current_time)
     time.sleep(1)
 ```
 
